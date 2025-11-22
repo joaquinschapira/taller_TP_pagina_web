@@ -31,8 +31,41 @@ Ante cualquier duda que no entiendan del trabajo podran ir ahi para
 resolver sus dudas
 
 
-<a href="como_se_juega.html">Cómo se juega</a>
+<a href="como_se_juega.html" style="
+  display:inline-block;
+  padding:10px 20px;
+  background:#ff00ff;
+  color:black;
+  font-weight:bold;
+  border-radius:6px;
+  text-decoration:none;
+  margin:8px;
+">
+  Cómo se juega
+</a>
 
+<a href="instalar_compilar.html" style="
+  display:inline-block;
+  padding:10px 20px;
+  background:#ff00ff;
+  color:black;
+  font-weight:bold;
+  border-radius:6px;
+  text-decoration:none;
+  margin:8px;
+">
+  Cómo instalar, compilar y ejecutar
+</a>
 
-
-
+<a href="como_se_juega.html" style="
+  display:inline-block;
+  padding:10px 20px;
+  background:#ff00ff;
+  color:black;
+  font-weight:bold;
+  border-radius:6px;
+  text-decoration:none;
+  margin:8px;
+">
+  como se juega
+</a>
