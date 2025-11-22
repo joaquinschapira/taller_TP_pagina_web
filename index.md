@@ -31,4 +31,6 @@ Ante cualquier duda que no entiendan del trabajo podran ir ahi para
 resolver sus dudas
 
 
+[Cómo se juega](como_se_juega.md)
+
 
