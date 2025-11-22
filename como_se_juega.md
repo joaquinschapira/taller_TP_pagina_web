@@ -1,3 +1,15 @@
+
+---
+
+title: Cómo se juega
+---
+
+<style>
+body, p, li, h1, h2, h3, h4, h5, h6 {
+  color: #ff00ff !important;
+}
+</style>
+
 # Cómo se juega
 
 ## 🕹️ Manual del Juego
