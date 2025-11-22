@@ -17,19 +17,17 @@ body {
 
 <style>
 
-/* Hace más angosta el área central así se ven los bordes */
+
 .container {
   max-width: 900px !important;
-  background-color: rgba(0,0,0,0.85);
   padding: 20px;
   border-radius: 8px;
   z-index: 2;
   position: relative;
 }
 
-/* Fondos animados laterales */
+
 body {
-  background-color: black;
   background-image:
     url("gif.gif"),
     url("gif.gif");
@@ -37,10 +35,9 @@ body {
   background-position:
     left center,
     right center;
-  background-size: 180px; /* ajustás tamaño */
-}
+  background-size: 180px; 
 
-/* Para que no toque el GIF el contenido */
+
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
