@@ -4,7 +4,51 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
 }
 </style>
  
+<style>
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+  background-repeat: repeat;
+}
+.container {
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+</style>
 
+<style>
+
+/* Hace más angosta el área central así se ven los bordes */
+.container {
+  max-width: 900px !important;
+  background-color: rgba(0,0,0,0.85);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+}
+
+/* Fondos animados laterales */
+body {
+  background-color: black;
+  background-image:
+    url("gif.gif"),
+    url("gif.gif");
+  background-repeat: repeat-y;
+  background-position:
+    left center,
+    right center;
+  background-size: 180px; /* ajustás tamaño */
+}
+
+/* Para que no toque el GIF el contenido */
+@media (min-width: 1200px) {
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+</style>
  
  #Trabajo final taller(pagina web)
 ---
