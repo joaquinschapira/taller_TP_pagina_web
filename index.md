@@ -112,3 +112,15 @@ este es un link de youtube donde veran todas las features del trabajo.
   margin:8px;
 }
 </style>
+
+<style>
+.container {
+  max-width: 1200px !important;   /* antes estaba en 900px */
+  margin: auto;
+  background-color: rgba(0,0,0,0.85);
+  padding: 30px;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+}
+</style>
