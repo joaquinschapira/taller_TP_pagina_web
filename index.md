@@ -3,7 +3,11 @@
   <a class="boton-fucsia" href="instalar_compilar.html">Cómo instalar, compilar y ejecutar</a>
 </div>
 
-
+<style>
+header h1 {
+  display: none !important;
+}
+</style>
 
 <style>
 body, p, li, h1, h2, h3, h4, h5, h6 {
