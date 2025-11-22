@@ -3,6 +3,22 @@
   <a class="boton-fucsia" href="instalar_compilar.html">Cómo instalar, compilar y ejecutar</a>
 </div>
 
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 800;
+}
+
+body, p, li {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 300;
+}
+</style>
+
+
 <style>
 header h1 {
   display: none !important;
@@ -64,11 +80,7 @@ body {
 ---
 
 
-bienvenidos a nuestro trabajo: aca podran ver:
-1) un video representativo del juego
-2) explicaciones de todas las features
-3) etc
-
+Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, Manuel Pato y Joaquin Schapira como trabajo practico final para la materia taller de programación en la facultad de ingenieria de la UBA. El trabajo consistia en desarrollar el mítico juego need for speed 2d permitiendo el multijugador para aplicar todo lo aprendido en la materia. 
 
 
 
@@ -81,8 +93,6 @@ bienvenidos a nuestro trabajo: aca podran ver:
 
 
 este es un link de youtube donde veran todas las features del trabajo.
-Ante cualquier duda que no entiendan del trabajo podran ir ahi para
-resolver sus dudas
 
 
 <style>
