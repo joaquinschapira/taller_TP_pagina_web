@@ -1,18 +1,19 @@
----
-title: #Trabajo final taller(pagina web)
----
 
+ #Trabajo final taller(pagina web)
+---
 bienvenidos a nuestro trabajo: aca podran ver:
 1) un video representativo del juego
 2) explicaciones de todas las features
 3) etc
 
 
-<div style="text-align:center;">
+<div style="text-align:center; margin: 2rem 0;">
   <iframe width="560" height="315"
-    src="[https://www.youtube.com/embed/ID_DEL_VIDEO](https://youtu.be/ID62qAriQmw)"
-    title="Need for speed TP taller" frameborder="0"
-    allowfullscreen>
+          src="https://youtu.be/ID62qAriQmw"
+          title="YouTube video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
   </iframe>
 </div>
 
