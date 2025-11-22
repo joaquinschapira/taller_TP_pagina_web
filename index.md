@@ -8,7 +8,7 @@ bienvenidos a nuestro trabajo: aca podran ver:
 
 
 <video controls width="640">
-  <source src="/home/joaquin/Music/videoplayback.mp4">
+  <source src="joaquinschapira/taller_TP_pagina_web/videoplayback.mp4">
   
 </video>
 
