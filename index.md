@@ -31,6 +31,17 @@ Ante cualquier duda que no entiendan del trabajo podran ir ahi para
 resolver sus dudas
 
 
-[Cómo se juega](como_se_juega.md)
+<a href="como_se_juega.md" style="
+  display:inline-block;
+  padding:10px 20px;
+  background:#ff00ff;
+  color:black;
+  font-weight:bold;
+  border-radius:6px;
+  text-decoration:none;">
+  Cómo se juega
+</a>
+
+
 
 
