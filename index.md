@@ -1,3 +1,10 @@
+<div class="menu-botones">
+  <a class="boton-fucsia" href="como_se_juega.html">Cómo se juega</a>
+  <a class="boton-fucsia" href="instalar_compilar.html">Cómo instalar, compilar y ejecutar</a>
+</div>
+
+
+
 <style>
 body, p, li, h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
@@ -74,41 +81,20 @@ Ante cualquier duda que no entiendan del trabajo podran ir ahi para
 resolver sus dudas
 
 
-<a href="como_se_juega.html" style="
-  display:inline-block;
-  padding:10px 20px;
-  background:#ff00ff;
-  color:black;
-  font-weight:bold;
-  border-radius:6px;
-  text-decoration:none;
-  margin:8px;
-">
-  Cómo se juega
-</a>
+<style>
+.menu-botones {
+  text-align: center;
+  margin-bottom: 25px;
+}
 
-<a href="instalar_compilar.html" style="
+.boton-fucsia {
   display:inline-block;
   padding:10px 20px;
   background:#ff00ff;
-  color:black;
+  color:black !important;
   font-weight:bold;
   border-radius:6px;
   text-decoration:none;
   margin:8px;
-">
-  Cómo instalar, compilar y ejecutar
-</a>
-
-<a href="como_se_juega.html" style="
-  display:inline-block;
-  padding:10px 20px;
-  background:#ff00ff;
-  color:black;
-  font-weight:bold;
-  border-radius:6px;
-  text-decoration:none;
-  margin:8px;
-">
-  como se juega
-</a>
+}
+</style>
