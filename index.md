@@ -7,10 +7,9 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
 
  
  #Trabajo final taller(pagina web)
-
-
- 
 ---
+
+
 bienvenidos a nuestro trabajo: aca podran ver:
 1) un video representativo del juego
 2) explicaciones de todas las features
