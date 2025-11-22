@@ -1,6 +1,6 @@
 
 ---
-
+layout: default
 title: Cómo se juega
 ---
 
