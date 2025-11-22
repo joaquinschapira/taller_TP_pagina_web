@@ -7,15 +7,10 @@ bienvenidos a nuestro trabajo: aca podran ver:
 3) etc
 
 
-<div style="text-align:center; margin: 2rem 0;">
-  <iframe width="560" height="315"
-          src="https://youtu.be/ID62qAriQmw"
-          title="YouTube video"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-  </iframe>
-</div>
+<video controls width="640">
+  <source src="/home/joaquin/Music/videoplayback.mp4">
+  
+</video>
 
 este es un link de youtube donde veran todas las features del trabajo.
 Ante cualquier duda que no entiendan del trabajo podran ir ahi para
