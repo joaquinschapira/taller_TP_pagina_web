@@ -7,9 +7,9 @@ bienvenidos a nuestro trabajo: aca podran ver:
 3) etc
 
 
-[![Mira el video en youtube](https://img.youtube.com/vi/ID62qAriQmw/maxresdefault.jpg)](https://youtu.be/ID62qAriQmw)
+[![Mira el video en](https://img.youtube.com/vi/ID62qAriQmw/maxresdefault.jpg)](https://youtu.be/ID62qAriQmw)
 
-### [Watch this video on YouTube](https://youtu.be/ID62qAriQmw)
+### [Mira el video el video en youtube](https://youtu.be/ID62qAriQmw)
 
 
 este es un link de youtube donde veran todas las features del trabajo.
