@@ -23,9 +23,8 @@ bienvenidos a nuestro trabajo: aca podran ver:
 
 ### [Mira el video en youtube](https://youtu.be/ID62qAriQmw)
 
- <img src="https://github.com/joaquinschapira/taller_TP_pagina_web/blob/74d05c6e0150fd87d325408797231edd75e9b702/racecar.jpg" alt="foto" style="float:right; width:260px; margin: 10px; border: 2px solid #ff00ff;">
+ <img src="racecar.jpg" alt="foto" style="float:right; width:260px; margin: 10px; border: 2px solid #ff00ff;">
 
- ![image alt](https://github.com/joaquinschapira/taller_TP_pagina_web/blob/74d05c6e0150fd87d325408797231edd75e9b702/racecar.jpg)
 
 
 este es un link de youtube donde veran todas las features del trabajo.
