@@ -1,7 +1,10 @@
 ---
-title: "Mi primer pagina"
+title: Trabajo final taller(pagina web)
 ---
 
-# Hola
+bienvenidos a nuestro trabajo: aca podran ver:
+1) un video representativo del juego
+2) explicaciones de todas las features
+3) etc
 
-Este es mi pagina sitio web con GitHub Pages 😄
+
