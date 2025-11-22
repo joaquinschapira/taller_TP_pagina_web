@@ -7,7 +7,7 @@ bienvenidos a nuestro trabajo: aca podran ver:
 3) etc
 
 
-[![Watch the video](https://img.youtube.com/vi/ID62qAriQmw/maxresdefault.jpg)](https://youtu.be/ID62qAriQmw)
+[![Mira el video en youtube](https://img.youtube.com/vi/ID62qAriQmw/maxresdefault.jpg)](https://youtu.be/ID62qAriQmw)
 
 ### [Watch this video on YouTube](https://youtu.be/ID62qAriQmw)
 
