@@ -1,4 +1,10 @@
-
+<style>
+body, p, li, h1, h2, h3, h4, h5, h6 {
+  color: pink !important;
+}
+</style>
+ 
+ 
  #Trabajo final taller(pagina web)
 ---
 bienvenidos a nuestro trabajo: aca podran ver:
