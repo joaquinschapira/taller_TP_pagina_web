@@ -66,6 +66,8 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
 </style>
 
 <style>
+
+  
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
 
 h1, h2, h3 {
@@ -80,6 +82,9 @@ body, p, li {
 </style>
 
 <style>
+header h1 {
+  display: none !important;
+}  
 
 .container {
   background-color: #1a1a1a;
