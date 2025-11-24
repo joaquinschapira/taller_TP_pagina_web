@@ -32,10 +32,7 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
 </style>
  
 <style>
-body {
-  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
-  background-repeat: repeat;
-}
+
 .container {
   background-color: #1a1a1a;
   padding: 20px;

@@ -10,6 +10,60 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
 }
 </style>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 800;
+}
+
+body, p, li {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 300;
+}
+</style>
+
+<style>
+
+.container {
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+</style>
+
+<style>
+
+
+.container {
+  max-width: 900px !important;
+  background-color: rgba(0,0,0,0.85);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+}
+
+
+body {
+  background-color: black;
+  background-image:
+    url("art pixel GIF.gif"),
+    url("art pixel GIF.gif");
+  background-repeat: repeat-y;
+  background-position:
+    left center,
+    right center;
+  background-size: 180px; 
+
+
+@media (min-width: 1200px) {
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
 # Cómo se juega
 
 ## 🕹️ Manual del Juego
