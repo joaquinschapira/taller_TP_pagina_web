@@ -1,7 +1,7 @@
 <div class="menu-botones">
   <a class="boton-fucsia" href="como_se_juega.html">Cómo se juega</a>
   <a class="boton-fucsia" href="instalar_compilar.html">Cómo instalar, compilar y ejecutar</a>
-  <a class="boton-fucsia" href="iniciar_juego.html">Cómo se juega</a>
+  <a class="boton-fucsia" href="iniciar_juego.html">Iniciar juego</a>
 </div>
 
 

@@ -72,23 +72,29 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
 h1, h2, h3 {
   font-family: 'Orbitron', sans-serif !important;
   font-weight: 800;
+  text-align: center; /* TITULOS CENTRADOS */
+  font-size: 34px;    /* MÁS GRANDES */
 }
 
 body, p, li {
   font-family: 'Orbitron', sans-serif !important;
   font-weight: 300;
+  font-size: 22px;     /* TEXTO MÁS GRANDE */
+  line-height: 1.55;   /* MÁS ESPACIADO, MAS LINDO */
+  text-align: center;  /* CENTRA TODO EL TEXTO */
 }
 
-/* Fondo sin rectángulo gris */
+/* Contenedor centrado como la otra página */
 .container {
-  max-width: 100% !important;
-  padding: 0 !important;
-  background: transparent !important;
+  max-width: 900px !important; /* como ejemplo que te gustó */
+  margin: 0 auto !important;   /* CENTRADO REAL */
+  padding: 20px 40px;
+  background: transparent !important; /* sin rectángulo gris */
   border: none !important;
   box-shadow: none !important;
 }
 
-/* Fondo con GIF laterales */
+/* Fondo con GIF en los costados */
 body {
   background-color: black;
   background-image:
