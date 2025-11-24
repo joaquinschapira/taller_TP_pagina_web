@@ -1,4 +1,58 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
 
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 800;
+}
+
+body, p, li {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 300;
+}
+</style>
+
+
+<style>
+header h1 {
+  display: none !important;
+}
+</style>
+
+<style>
+body, p, li, h1, h2, h3, h4, h5, h6 {
+  color: #ff00ff !important;
+}
+</style>
+ 
+<style>
+
+.container {
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+</style>
+
+<style>
+
+
+.container {
+  max-width: 900px !important;
+  background-color: rgba(0,0,0,0.85);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+</style>
  
 
 # Iniciar el Juego
@@ -66,33 +120,6 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
 }
 
-/* Fuente futurista */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
-
-h1, h2, h3 {
-  font-family: 'Orbitron', sans-serif !important;
-  font-weight: 800;
-  text-align: center; /* TITULOS CENTRADOS */
-  font-size: 34px;    /* MÁS GRANDES */
-}
-
-body, p, li {
-  font-family: 'Orbitron', sans-serif !important;
-  font-weight: 300;
-  font-size: 22px;     /* TEXTO MÁS GRANDE */
-  line-height: 1.55;   /* MÁS ESPACIADO, MAS LINDO */
-  text-align: center;  /* CENTRA TODO EL TEXTO */
-}
-
-/* Contenedor centrado como la otra página */
-.container {
-  max-width: 900px !important; /* como ejemplo que te gustó */
-  margin: 0 auto !important;   /* CENTRADO REAL */
-  padding: 20px 40px;
-  background: transparent !important; /* sin rectángulo gris */
-  border: none !important;
-  box-shadow: none !important;
-}
 
 /* Fondo con GIF en los costados */
 body {
@@ -107,10 +134,3 @@ body {
   background-size: 180px;
 }
 
-@media (min-width: 1200px) {
-  body {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-}
-</style>
