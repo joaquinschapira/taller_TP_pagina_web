@@ -117,6 +117,9 @@ body {
     padding-right: 200px;
   }
 }
+header h1 {
+  display: none !important;
+}  
 
 <style>
 .container {

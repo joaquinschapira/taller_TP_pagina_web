@@ -132,6 +132,10 @@ body, p, li {
   background-color: #1a1a1a;
   padding: 20px;
 }
+
+header h1 {
+  display: none !important;
+}  
 </style>
 
 <style>
