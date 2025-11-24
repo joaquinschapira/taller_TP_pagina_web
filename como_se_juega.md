@@ -108,7 +108,7 @@ body {
   background-position:
     left center,
     right center;
-  background-size: 180px; 
+  background-size: 200px; 
 
 
 @media (min-width: 1200px) {

@@ -1,8 +1,4 @@
-<style>
-body, p, li, h1, h2, h3, h4, h5, h6 {
-  color: #ff00ff !important;
-}
-</style>
+
  
 
 # Iniciar el Juego
@@ -65,12 +61,12 @@ En esta sala de espera:
 
 
 <style>
+/* Color fucsia */
 body, p, li, h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
 }
-</style>
 
-<style>
+/* Fuente futurista */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
 
 h1, h2, h3 {
@@ -82,22 +78,17 @@ body, p, li {
   font-family: 'Orbitron', sans-serif !important;
   font-weight: 300;
 }
-</style>
 
-<style>
-
+/* Fondo sin rectángulo gris */
 .container {
-  background-color: #1a1a1a;
-  padding: 20px;
+  max-width: 100% !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
-</style>
 
-<style>
-
-
-
-
-
+/* Fondo con GIF laterales */
 body {
   background-color: black;
   background-image:
@@ -107,24 +98,13 @@ body {
   background-position:
     left center,
     right center;
-  background-size: 180px; 
-
+  background-size: 180px;
+}
 
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
     padding-right: 200px;
   }
-}
-
-<style>
-.container {
-  max-width: 1200px !important;   /* antes estaba en 900px */
-  margin: auto;
-  background-color: rgba(0,0,0,0.85);
-  padding: 30px;
-  border-radius: 8px;
-  z-index: 2;
-  position: relative;
 }
 </style>
