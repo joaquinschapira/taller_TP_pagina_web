@@ -137,7 +137,14 @@ body, p, li {
 <style>
 
 
-
+.container {
+  max-width: 900px !important;
+  background-color: rgba(0,0,0,0.85);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+}
 
 
 body {
@@ -149,7 +156,7 @@ body {
   background-position:
     left center,
     right center;
-  background-size: 180px; 
+  background-size: 200px; 
 
 
 @media (min-width: 1200px) {

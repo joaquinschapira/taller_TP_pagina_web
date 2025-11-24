@@ -1,67 +1,4 @@
-<style>
-/* Fuente futurista */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
 
-h1, h2, h3 {
-  font-family: 'Orbitron', sans-serif !important;
-  font-weight: 800;
-}
-
-body, p, li {
-  font-family: 'Orbitron', sans-serif !important;
-  font-weight: 300;
-}
-
-/* Ocultar título grande del header del theme */
-header h1 {
-  display: none !important;
-}
-
-/* Color fucsia para todo el texto */
-body, p, li, h1, h2, h3, h4, h5, h6 {
-  color: #ff00ff !important;
-}
-
-/* Primera capa del container (no es estrictamente necesaria, pero la dejo igual que en la otra) */
-.container {
-  background-color: #1a1a1a;
-  padding: 20px;
-}
-
-/* Versión final del container: centrado y con fondo translúcido */
-.container {
-  max-width: 1200px !important;   /* igual que la otra página */
-  margin: auto;                   /* ESTO lo centra */
-  background-color: rgba(0,0,0,0.85);
-  padding: 30px;
-  border-radius: 8px;
-  z-index: 2;
-  position: relative;
-}
-
-/* Fondo con GIF en los costados */
-body {
-  background-color: black;
-  background-image:
-    url("sudhi-vijay-sudhi-offl.gif"),
-    url("sudhi-vijay-sudhi-offl.gif");  /* acá podés usar gif.gif si querés el mismo */
-  background-repeat: repeat-y;
-  background-position:
-    left center,
-    right center;
-  background-size: 180px;
-}
-
-/* Margen lateral extra en pantallas grandes */
-@media (min-width: 1200px) {
-  body {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-}
-</style>
-
-<div class="container">
 
 # Iniciar el Juego
 
@@ -121,5 +58,75 @@ En esta sala de espera:
 
 ---
 
-</div>
 
+<style>
+body, p, li, h1, h2, h3, h4, h5, h6 {
+  color: #ff00ff !important;
+}
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 800;
+}
+
+body, p, li {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 300;
+}
+</style>
+
+<style>
+
+.container {
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+</style>
+
+<style>
+
+
+.container {
+  max-width: 900px !important;
+  background-color: rgba(0,0,0,0.85);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+}
+
+
+body {
+  background-color: black;
+  background-image:
+    url("sudhi-vijay-sudhi-offl.gif"),
+    url("sudhi-vijay-sudhi-offl.gif");
+  background-repeat: repeat-y;
+  background-position:
+    left center,
+    right center;
+  background-size: 200px; 
+
+
+@media (min-width: 1200px) {
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+<style>
+.container {
+  max-width: 1200px !important;   /* antes estaba en 900px */
+  margin: auto;
+  background-color: rgba(0,0,0,0.85);
+  padding: 30px;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+}
+</style>
