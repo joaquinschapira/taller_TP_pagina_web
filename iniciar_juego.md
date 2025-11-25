@@ -93,11 +93,6 @@ header h1 {
 </style>
 
 <style>
-
-
-
-
-
 body {
   background-color: black;
   background-image:
@@ -108,24 +103,24 @@ body {
     left center,
     right center;
   background-size: 200px; 
+}
 
-
+/* media query aparte */
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
     padding-right: 200px;
   }
 }
+</style>
+
 
 <style>
 .container {
-  max-width: 1600px !important;   /* antes estaba en 900px */
-  margin: auto;
-  background-color: rgba(0,0,0,0.85);
-  padding: 30px;
-  border-radius: 8px;
-  z-index: 2;
-  position: relative;
+  max-width: 100% !important;      /* ocupa todo el ancho */
+  margin: 0 auto;
+  background-color: transparent !important;  /* sin rectángulo gris */
+  padding: 0;                       /* sin padding extra */
 }
 </style>
 
