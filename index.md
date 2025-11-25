@@ -194,6 +194,32 @@ p, li {
 Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, Manuel Pato y Joaquin Schapira como trabajo practico final para la materia taller de programación en la facultad de ingenieria de la UBA. El trabajo consistia en desarrollar el mítico juego need for speed 2d permitiendo el multijugador para aplicar todo lo aprendido en la materia. 
 
 
+<div class="integrantes-container">
+
+  <div class="integrante">
+    <div class="integrante-nombre">Lucas Pagani</div>
+    <a class="integrante-github" href="https://github.com/USUARIO1" target="_blank">GitHub</a>
+  </div>
+
+  <div class="integrante">
+    <div class="integrante-nombre">Federico Zanor</div>
+    <a class="integrante-github" href="https://github.com/USUARIO2" target="_blank">GitHub</a>
+  </div>
+
+  <div class="integrante">
+    <div class="integrante-nombre">Manuel Pato</div>
+    <a class="integrante-github" href="https://github.com/USUARIO3" target="_blank">GitHub</a>
+  </div>
+
+  <div class="integrante">
+    <div class="integrante-nombre">Joaquin Schapira</div>
+    <a class="integrante-github" href="https://github.com/USUARIO4" target="_blank">GitHub</a>
+  </div>
+
+</div>
+
+
+
 <style>
 .titulo-grande {
   font-family: 'Orbitron', sans-serif !important;
@@ -301,4 +327,68 @@ Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, M
   background: #ff55ff;
   box-shadow: 0 0 30px rgba(255,0,255,0.95);
 }
+</style>
+
+
+<style>
+
+/* Contenedor principal: 4 columnas */
+.integrantes-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  flex-wrap: wrap; 
+}
+
+/* Cada integrante */
+.integrante {
+  text-align: center;
+  width: 220px;
+  background: rgba(0,0,0,0.6);
+  padding: 20px 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(255,0,255,0.4);
+  border: 2px solid #ff00ff55;
+}
+
+/* Nombre */
+.integrante-nombre {
+  font-family: 'Orbitron', sans-serif !important;
+  font-size: 26px;
+  font-weight: 800;
+  color: #ff00ff;
+  margin-bottom: 15px;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+/* Botón GitHub */
+.integrante-github {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff00ff;
+  color: black !important;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid #ffffff33;
+  box-shadow: 0 0 15px rgba(255,0,255,0.7);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s ease;
+}
+
+.integrante-github:hover {
+  transform: translateY(-3px) scale(1.05);
+  background: #ff55ff;
+  box-shadow: 0 0 25px rgba(255,0,255,1);
+}
+
+
+@media (max-width: 780px) {
+  .integrante {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
 </style>
