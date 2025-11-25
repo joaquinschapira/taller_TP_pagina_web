@@ -117,10 +117,13 @@ body {
 
 <style>
 .container {
-  max-width: 100% !important;      /* ocupa todo el ancho */
-  margin: 0 auto;
-  background-color: transparent !important;  /* sin rectángulo gris */
-  padding: 0;                       /* sin padding extra */
+  max-width: 1200px !important;   /* igual que en index.md */
+  margin: auto;
+  background-color: rgba(0,0,0,0.85);
+  padding: 30px;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
 }
 </style>
 
