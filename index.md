@@ -1,8 +1,3 @@
----
-layout: default
-title: Need for Speed 2D
-header_image: autos.jpg
----
 
 <div class="hero-inicio"></div>
 
@@ -143,36 +138,3 @@ este es un link de youtube donde veran todas las features del trabajo.
 }
 </style>
 
-<style>
-.hero-inicio {
-  height: 100vh;                 /* ocupa el alto de la pantalla */
-  background-image: url("autos.jpg");  /* tu imagen en la raíz del repo */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* truco para que se salga del ancho limitado del tema y vaya de lado a lado */
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-</style>
-
-
-<style>
-/* Ocultar completamente el header del theme de GitHub Pages */
-.page-header {
-  height: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: none !important;
-}
-
-/* Ocultar todo lo que está adentro del header (View on GitHub, líneas, etc.) */
-.page-header * {
-  display: none !important;
-}
-</style>
