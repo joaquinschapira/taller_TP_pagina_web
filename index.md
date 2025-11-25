@@ -125,10 +125,22 @@ este es un link de youtube donde veran todas las features del trabajo.
 </style>
 
 <style>
-body, p, li {
-  font-size: 18px;   /* texto general un poco más grande */
+/* Aumenta SOLO el texto general, NO los botones */
+.markdown-body,
+.markdown-body p,
+.markdown-body li {
+  font-size: 20px !important;
 }
-h1 { font-size: 60px; }
-h2 { font-size: 40px; }
-h3 { font-size: 40px; }
+
+.markdown-body h1 {
+  font-size: 60px !important;
+}
+
+.markdown-body h2 {
+  font-size: 40px !important;
+}
+
+.markdown-body h3 {
+  font-size: 32px !important;
+}
 </style>
