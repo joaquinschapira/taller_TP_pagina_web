@@ -100,8 +100,6 @@ body {
 
 
 
-este es un link de youtube donde veran todas las features del trabajo.
-
 
 <style>
 .menu-botones {
