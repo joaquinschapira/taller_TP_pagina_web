@@ -200,7 +200,7 @@ Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, M
   font-weight: 800;
   text-align: center;
 
-  font-size: 180px !important;    /* TAMAÑO REALMENTE GRANDE */
+  font-size: 160px !important;    /* TAMAÑO REALMENTE GRANDE */
   color: #ff00ff;
 
   letter-spacing: 6px;
