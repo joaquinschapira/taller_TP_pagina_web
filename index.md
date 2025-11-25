@@ -35,10 +35,17 @@ header h1 {
 </style>
 
 <style>
-body, p, li, h1, h2, h3, h4, h5, h6 {
+/* Títulos y cosas importantes */
+h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
 }
+
+/* Texto normal un poco más suave */
+body, p, li {
+  color: #ffddff !important;
+}
 </style>
+
  
 <style>
 
@@ -108,9 +115,18 @@ este es un link de youtube donde veran todas las features del trabajo.
   background:#ff00ff;
   color:black !important;
   font-weight:bold;
-  border-radius:6px;
+  border-radius:10px;
   text-decoration:none;
   margin:8px;
+  border: 2px solid #ffffff33;
+  box-shadow: 0 0 10px rgba(255,0,255,0.5);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.boton-fucsia:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px rgba(255,0,255,0.9);
+  background:#ff55ff;
 }
 </style>
 
@@ -127,9 +143,12 @@ este es un link de youtube donde veran todas las features del trabajo.
 </style>
 
 <style>
+body {
+  font-size: 20px;
+}
 
-* {
-  font-size: 24px !important;  
+p, li {
+  font-size: 22px;
 }
 </style>
 
@@ -175,3 +194,73 @@ este es un link de youtube donde veran todas las features del trabajo.
 
 
 Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, Manuel Pato y Joaquin Schapira como trabajo practico final para la materia taller de programación en la facultad de ingenieria de la UBA. El trabajo consistia en desarrollar el mítico juego need for speed 2d permitiendo el multijugador para aplicar todo lo aprendido en la materia. 
+
+
+<style>
+.titulo-grande {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 800;
+  text-align: center;
+
+  font-size: 180px !important;    /* TAMAÑO REALMENTE GRANDE */
+  color: #ff00ff;
+
+  letter-spacing: 6px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  /* NEÓN TRIPLE */
+  text-shadow:
+    0 0 8px #ff00ff,
+    0 0 16px #ff00ff,
+    0 0 32px #ff00ff,
+    0 0 48px #ff66ff,
+    0 0 72px #ff99ff;
+
+  /* BORDE EXTERNO */
+  -webkit-text-stroke: 3px #770077;
+
+  /* ANIMACIÓN SUAVE */
+  animation: pulso-neon 2.5s infinite ease-in-out;
+}
+
+@keyframes pulso-neon {
+  0%, 100% {
+    text-shadow:
+      0 0 8px #ff00ff,
+      0 0 16px #ff00ff,
+      0 0 32px #ff00ff,
+      0 0 48px #ff66ff,
+      0 0 72px #ff99ff;
+  }
+  50% {
+    text-shadow:
+      0 0 4px #ff00ff,
+      0 0 12px #ff00ff,
+      0 0 20px #ff00ff,
+      0 0 30px #ff66ff,
+      0 0 40px #ff99ff;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo-grande {
+    font-size: 70px !important;
+    -webkit-text-stroke: 1px #770077;
+  }
+}
+</style>
+
+<style>
+.video-container {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.video-container video {
+  max-width: 100%;
+  border: 3px solid #ff00ff;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(255,0,255,0.6);
+}
+</style>
