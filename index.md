@@ -91,7 +91,7 @@ body {
 
 <div class="video-container">
   <video controls width="800">
-    <source src="holaaa.mp4" type="video/mp4">
+    <source src="video_juego.mp4" type="video/mp4">
     Tu navegador no soporta el video HTML5.
   </video>
 </div>
