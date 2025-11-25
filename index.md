@@ -1,3 +1,7 @@
+<div class="titulo-grande">NEED FOR SPEED 2D</div>
+
+
+
 
 <div class="hero-inicio"></div>
 
@@ -71,11 +75,10 @@ body {
 
 </style>
  
- Need for speed 2D
+
 ---
 
 
-Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, Manuel Pato y Joaquin Schapira como trabajo practico final para la materia taller de programación en la facultad de ingenieria de la UBA. El trabajo consistia en desarrollar el mítico juego need for speed 2d permitiendo el multijugador para aplicar todo lo aprendido en la materia. 
 
 
 
@@ -141,3 +144,27 @@ este es un link de youtube donde veran todas las features del trabajo.
 }
 </style>
 
+
+<style>
+.titulo-grande {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 800;
+  font-size: 70px;              /* tamaño gigante */
+  color: #ff00ff !important;    /* tu fucsia */
+  text-align: center;           /* centrado */
+  margin-top: 40px;
+  margin-bottom: 50px;
+  letter-spacing: 3px;          /* un toque más futurista */
+  text-shadow: 0 0 10px #ff00ff, 
+               0 0 20px #ff00ff;
+}
+@media (max-width: 768px) {
+  .titulo-grande {
+    font-size: 45px;            /* más chico en celulares */
+  }
+}
+</style>
+
+
+
+Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, Manuel Pato y Joaquin Schapira como trabajo practico final para la materia taller de programación en la facultad de ingenieria de la UBA. El trabajo consistia en desarrollar el mítico juego need for speed 2d permitiendo el multijugador para aplicar todo lo aprendido en la materia. 
