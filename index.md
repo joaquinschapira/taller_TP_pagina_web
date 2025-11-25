@@ -149,7 +149,7 @@ este es un link de youtube donde veran todas las features del trabajo.
 .titulo-grande {
   font-family: 'Orbitron', sans-serif !important;
   font-weight: 800;
-  font-size: 70px;              /* tamaño gigante */
+  font-size: 150px;              /* tamaño gigante */
   color: #ff00ff !important;    /* tu fucsia */
   text-align: center;           /* centrado */
   margin-top: 40px;
