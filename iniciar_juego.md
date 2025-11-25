@@ -95,15 +95,6 @@ header h1 {
 <style>
 
 
-.container {
-  max-width: 900px !important;
-  background-color: rgba(0,0,0,0.85);
-  padding: 20px;
-  border-radius: 8px;
-  z-index: 2;
-  position: relative;
-}
-
 
 body {
   background-color: black;

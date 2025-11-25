@@ -44,14 +44,7 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
 <style>
 
 
-.container {
-  max-width: 900px !important;
-  background-color: rgba(0,0,0,0.85);
-  padding: 20px;
-  border-radius: 8px;
-  z-index: 2;
-  position: relative;
-}
+
 
 
 body {
