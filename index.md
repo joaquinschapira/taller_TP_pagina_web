@@ -1,15 +1,12 @@
-<div class="banner-superior">
-  <img src="autos.jpg" alt="banner" />
-</div>
+<div class="hero-portada"></div>
 
+<div class="contenido-principal">
 
 <div class="menu-botones">
   <a class="boton-fucsia" href="como_se_juega.html">Cómo se juega</a>
   <a class="boton-fucsia" href="instalar_compilar.html">Cómo instalar, compilar y ejecutar</a>
   <a class="boton-fucsia" href="iniciar_juego.html">Iniciar juego</a>
 </div>
-
-
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
@@ -25,7 +22,6 @@ body, p, li {
 }
 </style>
 
-
 <style>
 header h1 {
   display: none !important;
@@ -37,9 +33,8 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
 }
 </style>
- 
-<style>
 
+<style>
 .container {
   background-color: #1a1a1a;
   padding: 20px;
@@ -47,11 +42,6 @@ body, p, li, h1, h2, h3, h4, h5, h6 {
 </style>
 
 <style>
-
-
-
-
-
 body {
   background-color: black;
   background-image:
@@ -61,36 +51,29 @@ body {
   background-position:
     left center,
     right center;
-  background-size: 180px; 
-
+  background-size: 180px;
 }
+
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
     padding-right: 200px;
   }
 }
-
 </style>
- 
- Need for speed 2D
+
+Need for speed 2D
 ---
 
-
 Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, Manuel Pato y Joaquin Schapira como trabajo practico final para la materia taller de programación en la facultad de ingenieria de la UBA. El trabajo consistia en desarrollar el mítico juego need for speed 2d permitiendo el multijugador para aplicar todo lo aprendido en la materia. 
-
-
 
 [![Mira el video en](https://img.youtube.com/vi/ID62qAriQmw/maxresdefault.jpg)](https://youtu.be/ID62qAriQmw)
 
 ### [Mira el video en youtube](https://youtu.be/ID62qAriQmw)
 
- <img src="racecar.jpg" alt="foto" style="float:right; width:260px; margin: 10px; border: 2px solid #ff00ff;">
-
-
+<img src="racecar.jpg" alt="foto" style="float:right; width:260px; margin: 10px; border: 2px solid #ff00ff;">
 
 este es un link de youtube donde veran todas las features del trabajo.
-
 
 <style>
 .menu-botones {
@@ -112,7 +95,7 @@ este es un link de youtube donde veran todas las features del trabajo.
 
 <style>
 .container {
-  max-width: 1200px !important;   /* antes estaba en 900px */
+  max-width: 1200px !important;
   margin: auto;
   background-color: rgba(0,0,0,0.85);
   padding: 30px;
@@ -123,19 +106,26 @@ este es un link de youtube donde veran todas las features del trabajo.
 </style>
 
 <style>
-
 * {
-  font-size: 24px !important;  
+  font-size: 24px !important;
 }
 </style>
 
+</div> <!-- cierre de .contenido-principal -->
+
 
 <style>
-.banner-superior img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0;
-  padding: 0;
+.hero-portada {
+  height: 100vh; /* ocupa toda la pantalla */
+  background-image: url("autos.jpg"); /* tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Opcional: que el contenido principal quede un poquito separado del hero */
+.contenido-principal {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 </style>
