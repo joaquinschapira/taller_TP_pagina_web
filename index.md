@@ -264,3 +264,43 @@ Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, M
   box-shadow: 0 0 25px rgba(255,0,255,0.6);
 }
 </style>
+
+<div class="boton-grande-container">
+  <a class="boton-grande" href="https://github.com/lucasPagani2003/taller-de-programacion-tp-grupal-2025c2-grupo-2" target="_blank">
+    🔗 Ver repositorio en GitHub
+  </a>
+</div>
+
+
+<style>
+.boton-grande-container {
+  text-align: center;
+  margin: 50px auto 30px auto;
+}
+
+.boton-grande {
+  display: inline-block;
+  padding: 18px 40px;
+  font-size: 32px;     /* MÁS GRANDE */
+  font-weight: 800;
+  font-family: 'Orbitron', sans-serif !important;
+
+  background: #ff00ff;
+  color: black !important;
+  text-decoration: none;
+  border-radius: 12px;
+
+  border: 3px solid #ffffff55;
+  box-shadow: 0 0 20px rgba(255,0,255,0.6);
+  letter-spacing: 2px;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+/* EFECTO HOVER */
+.boton-grande:hover {
+  transform: translateY(-3px) scale(1.05);
+  background: #ff55ff;
+  box-shadow: 0 0 30px rgba(255,0,255,0.95);
+}
+</style>
