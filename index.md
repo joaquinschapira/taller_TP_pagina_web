@@ -79,9 +79,12 @@ Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, M
 
 
 
-[![Mira el video en](https://img.youtube.com/vi/ID62qAriQmw/maxresdefault.jpg)](https://youtu.be/ID62qAriQmw)
-
-### [Mira el video en youtube](https://youtu.be/ID62qAriQmw)
+<div class="video-container">
+  <video controls width="800">
+    <source src="holaaa.mp4" type="video/mp4">
+    Tu navegador no soporta el video HTML5.
+  </video>
+</div>
 
  <img src="racecar.jpg" alt="foto" style="float:right; width:260px; margin: 10px; border: 2px solid #ff00ff;">
 
