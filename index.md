@@ -4,7 +4,7 @@ title: Need for Speed 2D
 header_image: autos.jpg
 ---
 
-
+<div class="hero-inicio"></div>
 
 <div class="menu-botones">
   <a class="boton-fucsia" href="como_se_juega.html">Cómo se juega</a>
@@ -144,13 +144,19 @@ este es un link de youtube donde veran todas las features del trabajo.
 </style>
 
 <style>
-.page-header {
-  background-image: url("autos.jpg");
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  height: 100vh !important;
-  padding: 0 !important;
-  margin-bottom: 30px;
+.hero-inicio {
+  height: 100vh;                 /* ocupa el alto de la pantalla */
+  background-image: url("autos.jpg");  /* tu imagen en la raíz del repo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* truco para que se salga del ancho limitado del tema y vaya de lado a lado */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 </style>
