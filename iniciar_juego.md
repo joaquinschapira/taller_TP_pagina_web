@@ -117,15 +117,18 @@ body {
 
 <style>
 .container {
-  max-width: 1700px !important;   /* igual que en index.md */
-  margin: auto;
+  max-width: 900px !important;           /* el mismo tamaño que tu página de instalación */
+  margin-left: auto !important;
+  margin-right: auto !important;
   background-color: rgba(0,0,0,0.85);
   padding: 30px;
   border-radius: 8px;
   z-index: 2;
   position: relative;
+  text-align: left !important;           /* MUY IMPORTANTE: texto alineado a la izquierda */
 }
 </style>
+
 
 <style>
 
@@ -133,3 +136,5 @@ body {
   font-size: 24px !important;  
 }
 </style>
+
+
