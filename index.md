@@ -160,3 +160,19 @@ este es un link de youtube donde veran todas las features del trabajo.
   margin-right: -50vw;
 }
 </style>
+
+
+<style>
+/* Ocultar completamente el header del theme de GitHub Pages */
+.page-header {
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+/* Ocultar todo lo que está adentro del header (View on GitHub, líneas, etc.) */
+.page-header * {
+  display: none !important;
+}
+</style>
