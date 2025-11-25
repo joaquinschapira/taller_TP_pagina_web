@@ -125,22 +125,8 @@ este es un link de youtube donde veran todas las features del trabajo.
 </style>
 
 <style>
-/* Aumenta SOLO el texto general, NO los botones */
-.markdown-body,
-.markdown-body p,
-.markdown-body li {
-  font-size: 20px !important;
-}
-
-.markdown-body h1 {
-  font-size: 60px !important;
-}
-
-.markdown-body h2 {
-  font-size: 40px !important;
-}
-
-.markdown-body h3 {
-  font-size: 32px !important;
+/* SUBIR TAMAÑO DE TODO EL TEXTO */
+* {
+  font-size: 24px !important;   /* probá así, va a quedar GRANDE de verdad */
 }
 </style>
