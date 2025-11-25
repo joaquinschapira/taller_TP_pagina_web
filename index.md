@@ -65,7 +65,7 @@ body {
     right center;
   background-size: 180px; 
 
-
+}
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
