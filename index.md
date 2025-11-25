@@ -75,7 +75,7 @@ body {
 
 </style>
  
- #Trabajo final taller(pagina web)
+ Need for speed 2D
 ---
 
 
@@ -122,4 +122,13 @@ este es un link de youtube donde veran todas las features del trabajo.
   z-index: 2;
   position: relative;
 }
+</style>
+
+<style>
+body, p, li {
+  font-size: 18px;   /* texto general un poco más grande */
+}
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 24px; }
 </style>
