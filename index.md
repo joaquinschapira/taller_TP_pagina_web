@@ -128,7 +128,7 @@ este es un link de youtube donde veran todas las features del trabajo.
 body, p, li {
   font-size: 18px;   /* texto general un poco más grande */
 }
-h1 { font-size: 36px; }
-h2 { font-size: 28px; }
-h3 { font-size: 24px; }
+h1 { font-size: 60px; }
+h2 { font-size: 40px; }
+h3 { font-size: 40px; }
 </style>
