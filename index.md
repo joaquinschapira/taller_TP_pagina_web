@@ -1,3 +1,8 @@
+<div class="banner-superior">
+  <img src="autos.jpg" alt="banner" />
+</div>
+
+
 <div class="menu-botones">
   <a class="boton-fucsia" href="como_se_juega.html">Cómo se juega</a>
   <a class="boton-fucsia" href="instalar_compilar.html">Cómo instalar, compilar y ejecutar</a>
@@ -121,5 +126,16 @@ este es un link de youtube donde veran todas las features del trabajo.
 
 * {
   font-size: 24px !important;  
+}
+</style>
+
+
+<style>
+.banner-superior img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 </style>
