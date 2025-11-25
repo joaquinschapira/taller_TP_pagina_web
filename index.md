@@ -133,6 +133,13 @@ este es un link de youtube donde veran todas las features del trabajo.
 }
 </style>
 
+<style>
+.titulo-grande {
+  font-size: 120px !important;   /* ahora sí se va a agrandar */
+  line-height: 0.9;
+}
+</style>
+
 
 <style>
 .banner-superior img {
