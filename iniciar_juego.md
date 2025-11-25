@@ -117,7 +117,7 @@ body {
 
 <style>
 .container {
-  max-width: 1200px !important;   /* igual que en index.md */
+  max-width: 1700px !important;   /* igual que en index.md */
   margin: auto;
   background-color: rgba(0,0,0,0.85);
   padding: 30px;
