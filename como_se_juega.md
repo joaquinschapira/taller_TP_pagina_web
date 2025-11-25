@@ -132,3 +132,10 @@ header h1 {
   position: relative;
 }
 </style>
+
+<style>
+
+* {
+  font-size: 24px !important;  
+}
+</style>

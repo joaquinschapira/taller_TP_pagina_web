@@ -125,8 +125,8 @@ este es un link de youtube donde veran todas las features del trabajo.
 </style>
 
 <style>
-/* SUBIR TAMAÑO DE TODO EL TEXTO */
+
 * {
-  font-size: 24px !important;   /* probá así, va a quedar GRANDE de verdad */
+  font-size: 24px !important;  
 }
 </style>
