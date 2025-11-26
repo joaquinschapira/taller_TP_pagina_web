@@ -60,14 +60,18 @@ En esta sala de espera:
 
 
 <style>
-body, p, li, h1, h2, h3, h4, h5, h6 {
+/* Títulos bien fucsia */
+h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
+}
+
+/* Texto un poco más suave para que no canse */
+body, p, li {
+  color: #ffddff !important;
 }
 </style>
 
 <style>
-
-  
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
 
 h1, h2, h3 {
@@ -82,17 +86,7 @@ body, p, li {
 </style>
 
 <style>
-header h1 {
-  display: none !important;
-}  
-
-.container {
-  background-color: #1a1a1a;
-  padding: 20px;
-}
-</style>
-
-<style>
+/* Fondo general con GIFs a los costados (versión “Iniciar el Juego”) */
 body {
   background-color: black;
   background-image:
@@ -105,19 +99,22 @@ body {
   background-size: 200px; 
 }
 
-/* media query aparte */
+/* Para pantallas grandes sumo padding lateral */
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
     padding-right: 200px;
   }
 }
-</style>
 
+/* Ocultar título del theme */
+header h1 {
+  display: none !important;
+}
 
-<style>
+/* Container centrado tipo “tarjeta” de lectura */
 .container {
-  max-width: 900px !important;           /* el mismo tamaño que tu página de instalación */
+  max-width: 900px !important;           /* igual que en Cómo se juega */
   margin-left: auto !important;
   margin-right: auto !important;
   background-color: rgba(0,0,0,0.85);
@@ -125,16 +122,44 @@ body {
   border-radius: 8px;
   z-index: 2;
   position: relative;
-  text-align: left !important;           /* MUY IMPORTANTE: texto alineado a la izquierda */
+  text-align: left !important;
 }
 </style>
-
 
 <style>
+/* Tamaños de fuente coherentes */
+body {
+  font-size: 20px;
+}
 
-* {
-  font-size: 24px !important;  
+p, li {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+}
+
+h3 {
+  font-size: 26px !important;
 }
 </style>
 
-
+<style>
+/* Estilo terminal para los comandos */
+.command {
+  display: block;
+  background: #111;
+  border-left: 4px solid #ff00ff;
+  padding: 8px 12px;
+  margin: 8px 0 12px 0;
+  font-family: "Fira Code", monospace;
+  font-size: 20px;
+  color: #ffddff;
+  border-radius: 6px;
+}
+</style>
