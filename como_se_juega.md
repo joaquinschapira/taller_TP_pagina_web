@@ -127,9 +127,24 @@ header h1 {
 
 
 <style>
+body {
+  font-size: 20px;
+}
 
-* {
-  font-size: 24px !important;  
+p, li {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+}
+
+h3 {
+  font-size: 26px !important;
 }
 </style>
 
