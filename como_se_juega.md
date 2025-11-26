@@ -16,7 +16,7 @@ Si ya tenés mapas creados o sabés usar el editor, podés saltar a la sección 
 
 Para abrir el editor, ejecutá:
 
-./needforspeed2d.sh run editor
+<code class="command">./needforspeed2d.sh run editor</code>
 
 
 Dentro del editor podrás elegir una de las siguientes **tres ciudades base**:
@@ -59,10 +59,17 @@ Cuando termines, deberás **guardar tu mapa como jugable** usando:
 
 
 <style>
-body, p, li, h1, h2, h3, h4, h5, h6 {
+/* Títulos bien fucsia */
+h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
 }
+
+/* Texto un poco más suave para que no canse */
+body, p, li {
+  color: #ffddff !important;
+}
 </style>
+
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;500;800&display=swap');
@@ -79,26 +86,7 @@ body, p, li {
 </style>
 
 <style>
-
-.container {
-  background-color: #1a1a1a;
-  padding: 20px;
-}
-</style>
-
-<style>
-
-
-.container {
-  max-width: 900px !important;
-  background-color: rgba(0,0,0,0.85);
-  padding: 20px;
-  border-radius: 8px;
-  z-index: 2;
-  position: relative;
-}
-
-
+/* Fondo general con GIFs a los costados */
 body {
   background-color: black;
   background-image:
@@ -108,23 +96,26 @@ body {
   background-position:
     left center,
     right center;
-  background-size: 200px; 
+  background-size: 200px;
+}
 
-
+/* Para pantallas grandes sumo padding lateral */
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
     padding-right: 200px;
   }
 }
+
+/* Ocultar título del theme */
 header h1 {
   display: none !important;
-}  
+}
 
-<style>
+/* Container centrado tipo “tarjeta” de lectura */
 .container {
-  max-width: 1700px !important;   /* igual que en index.md */
-  margin: auto;
+  max-width: 900px !important;        /* perfecto para texto */
+  margin: 0 auto;
   background-color: rgba(0,0,0,0.85);
   padding: 30px;
   border-radius: 8px;
@@ -133,9 +124,26 @@ header h1 {
 }
 </style>
 
+
+
 <style>
 
 * {
   font-size: 24px !important;  
+}
+</style>
+
+
+<style>
+.command {
+  display: block;
+  background: #111;
+  border-left: 4px solid #ff00ff;
+  padding: 8px 12px;
+  margin: 8px 0 12px 0;
+  font-family: "Fira Code", monospace;
+  font-size: 20px;
+  color: #ffddff;
+  border-radius: 6px;
 }
 </style>
