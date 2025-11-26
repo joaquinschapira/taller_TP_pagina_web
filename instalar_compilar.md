@@ -1,114 +1,113 @@
-<style>
-body, p, li, h1, h2, h3, h4, h5, h6 {
-  color: #ff00ff !important;
-}
-</style>
- 
-
 # 🔧 Instalación, Compilación y Ejecución
 
-Antes de jugar, es necesario instalar las dependencias y compilar el proyecto. No se necesita conocimiento alguno de C++: todo está automatizado mediante el script needforspeed2d.sh.
+Antes de jugar, es necesario instalar las dependencias y compilar el proyecto.  
+No se necesita conocimiento alguno de C++: todo está automatizado mediante el script `needforspeed2d.sh`.
 
- 
+---
+
 ## 1° Requisitos del Sistema
 
 - Sistema operativo compatible:
   - Ubuntu 24.04 (o distribuciones Linux derivadas)
-​
+
+---
 
 ## 2° Otorgar permisos de ejecución
 
-```bash
-  chmod +x needforspeed2d.sh
-```
+<code class="command">chmod +x needforspeed2d.sh</code>
 
-## 3° Descargar dependencias:
-Este comando instala todas las librerías necesarias (SDL, Qt, cmake, etc.)
-```bash
-  sudo ./needforspeed2d.sh download
-```
+---
+
+## 3° Descargar dependencias
+
+Este comando instala todas las librerías necesarias (SDL, Qt, cmake, etc.):
+
+<code class="command">sudo ./needforspeed2d.sh download</code>
+
+---
 
 ## 4° Compilar proyecto
-Compilación normal:
-```bash
-  ./needforspeed2d.sh build
-```
-Compilación limpia
-```bash
-  ./needforspeed2d.sh build --clean
-  ./needforspeed2d.sh build --c
-```
 
-## 5° Ejecutar tests 
-```bash
-  ./needforspeed2d.sh tests
-```
+**Compilación normal:**
+<code class="command">./needforspeed2d.sh build</code>
+
+**Compilación limpia:**
+<code class="command">./needforspeed2d.sh build --clean</code>
+<code class="command">./needforspeed2d.sh build --c</code>
+
+---
+
+## 5° Ejecutar tests
+
+<code class="command">./needforspeed2d.sh tests</code>
+
+---
 
 ## 6° Ejecutar
 
-- El proyecto incluye tres ejecutables:
-  - Cliente
-  - Servidor
-  - Editor de mapas
+El proyecto incluye tres ejecutables:
 
-Todo se ejecuta desde el instalador.
+- Cliente
+- Servidor
+- Editor de mapas
+
+Todo se ejecuta desde el instalador:
 
 Cliente:
-```bash
-  ./needforspeed2d.sh run client
- ```
- Servidor:
- ```bash
-  ./needforspeed2d.sh run server
- ```
- Editor:
- ```bash
-  ./needforspeed2d.sh run editor
-```
+<code class="command">./needforspeed2d.sh run client</code>
 
-## 7° Ejecutar con valgrind (opcional)
+Servidor:
+<code class="command">./needforspeed2d.sh run server</code>
+
+Editor:
+<code class="command">./needforspeed2d.sh run editor</code>
+
+---
+
+## 7° Ejecutar con Valgrind (opcional)
+
 Importante:
 
-Cliente y editor usan Valgrind_helpers para supresiones (ver markdown del directorio Valgrind_helpers)
-
-Server no usa supresiones
-
+- Cliente y Editor usan Valgrind_helpers para supresiones (ver markdown de ese directorio).
+- Server no usa supresiones.
 
 Cliente:
-```bash
-  ./needforspeed2d.sh run client --valgrind
- ```
- Servidor:
- ```bash
-  ./needforspeed2d.sh run server --valgrind
- ```
- Editor:
- ```bash
-  ./needforspeed2d.sh run editor --valgrind
-```
+<code class="command">./needforspeed2d.sh run client --valgrind</code>
+
+Servidor:
+<code class="command">./needforspeed2d.sh run server --valgrind</code>
+
+Editor:
+<code class="command">./needforspeed2d.sh run editor --valgrind</code>
+
+---
 
 ## 8° Configuración del software
 
 El archivo de configuración se encuentra en:
-```bash
-  etc/need4speed/config.yaml
-```
 
-Permite modificar: duración de carrera, características de los autos, tiempos de pantallas intermedias y más!
+<code class="command">etc/need4speed/config.yaml</code>
 
+Permite modificar duración de carrera, características de autos, tiempos de pantallas intermedias y más.  
 No es necesario modificarlo para jugar.
 
-Recursos utilizados (mapas, texturas, sonidos) se encuentran en:
-```bash
-  resources/
-```
+Los recursos utilizados (mapas, texturas, sonidos) se encuentran en:
+
+<code class="command">resources/</code>
 
 Ya vienen listos al compilar.
 
+---
 
 <style>
-body, p, li, h1, h2, h3, h4, h5, h6 {
+/* Títulos bien fucsia */
+h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
+}
+
+/* Texto más suave */
+body, p, li {
+  color: #ffddff !important;
 }
 </style>
 
@@ -127,30 +126,7 @@ body, p, li {
 </style>
 
 <style>
-
-.container {
-  background-color: #1a1a1a;
-  padding: 20px;
-}
-
-header h1 {
-  display: none !important;
-}  
-</style>
-
-<style>
-
-
-.container {
-  max-width: 900px !important;
-  background-color: rgba(0,0,0,0.85);
-  padding: 20px;
-  border-radius: 8px;
-  z-index: 2;
-  position: relative;
-}
-
-
+/* Fondo general */
 body {
   background-color: black;
   background-image:
@@ -160,9 +136,10 @@ body {
   background-position:
     left center,
     right center;
-  background-size: 200px; 
+  background-size: 200px;
+}
 
-
+/* Padding lateral en pantallas grandes */
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
@@ -170,21 +147,58 @@ body {
   }
 }
 
-<style>
+/* Ocultar título del tema */
+header h1 {
+  display: none !important;
+}
+
+/* Container estilo tarjeta */
 .container {
-  max-width: 1700px !important;   /* igual que en index.md */
-  margin: auto;
+  max-width: 900px !important;
+  margin: 0 auto;
   background-color: rgba(0,0,0,0.85);
   padding: 30px;
   border-radius: 8px;
   z-index: 2;
   position: relative;
+  text-align: left !important;
 }
 </style>
 
 <style>
+/* Tamaños coherentes */
+body {
+  font-size: 20px;
+}
 
-* {
-  font-size: 24px !important;  
+p, li {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+}
+
+h3 {
+  font-size: 26px !important;
+}
+</style>
+
+<style>
+/* Comandos estilo terminal */
+.command {
+  display: block;
+  background: #111;
+  border-left: 4px solid #ff00ff;
+  padding: 8px 12px;
+  margin: 8px 0 12px 0;
+  font-family: "Fira Code", monospace;
+  font-size: 20px;
+  color: #ffddff;
+  border-radius: 6px;
 }
 </style>
