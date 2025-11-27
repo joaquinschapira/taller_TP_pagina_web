@@ -392,3 +392,65 @@ Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, M
 }
 
 </style>
+
+
+
+<style>
+
+/* Tamaño general del texto (mucho más razonable) */
+body {
+  font-size: 14px !important;
+}
+
+p, li {
+  font-size: 15px !important;
+}
+
+/* Títulos más chicos */
+h1 {
+  font-size: 28px !important;
+}
+h2 {
+  font-size: 24px !important;
+}
+h3 {
+  font-size: 20px !important;
+}
+h4, h5, h6 {
+  font-size: 18px !important;
+}
+
+/* Botones */
+.boton-fucsia {
+  font-size: 16px !important;
+}
+
+/* Botón gigante del GitHub */
+.boton-grande {
+  font-size: 22px !important;
+  padding: 12px 28px !important;
+}
+
+/* Integrantes */
+.integrante-nombre {
+  font-size: 20px !important;
+}
+.integrante-github {
+  font-size: 16px !important;
+}
+
+/* EL TÍTULO PRINCIPAL — mucho más razonable */
+.titulo-grande {
+  font-size: 70px !important;
+  -webkit-text-stroke: 2px #770077 !important;
+}
+
+
+@media (max-width: 768px) {
+  .titulo-grande {
+    font-size: 40px !important;
+    -webkit-text-stroke: 1px #770077 !important;
+  }
+}
+
+</style>
