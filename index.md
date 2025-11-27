@@ -454,3 +454,23 @@ h4, h5, h6 {
 }
 
 </style>
+
+<style>
+.integrantes-container {
+  gap: 20px !important;
+}
+
+.integrante {
+  width: 180px !important;   /* antes 220px */
+  padding: 15px 10px !important;
+}
+
+.integrante-nombre {
+  font-size: 18px !important;
+}
+
+.integrante-github {
+  font-size: 14px !important;
+  padding: 8px 14px !important;
+}
+</style>
