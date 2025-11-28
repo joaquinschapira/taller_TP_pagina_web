@@ -1,4 +1,29 @@
 
+<a href="index.html" class="btn-volver">⟵ Volver</a>
+
+<style>
+.btn-volver {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #ff00ff;
+  color: black !important;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  z-index: 9999;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-volver:hover {
+  background: #ff55ff;
+  transform: scale(1.05);
+}
+</style>
+
 
 # Iniciar el Juego
 
@@ -65,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff00ff !important;
 }
 
-/* Texto un poco más suave para que no canse */
+ 
 body, p, li {
   color: #ffddff !important;
 }
@@ -86,7 +111,7 @@ body, p, li {
 </style>
 
 <style>
-/* Fondo general con GIFs a los costados (versión “Iniciar el Juego”) */
+/* Fondo general con GIFs a los costados */
 body {
   background-color: black;
   background-image:
@@ -99,7 +124,6 @@ body {
   background-size: 200px; 
 }
 
-/* Para pantallas grandes sumo padding lateral */
 @media (min-width: 1200px) {
   body {
     padding-left: 200px;
@@ -107,14 +131,14 @@ body {
   }
 }
 
-/* Ocultar título del theme */
+
 header h1 {
   display: none !important;
 }
 
 /* Container centrado tipo “tarjeta” de lectura */
 .container {
-  max-width: 900px !important;           /* igual que en Cómo se juega */
+  max-width: 900px !important;          
   margin-left: auto !important;
   margin-right: auto !important;
   background-color: rgba(0,0,0,0.85);
@@ -127,7 +151,7 @@ header h1 {
 </style>
 
 <style>
-/* Tamaños de fuente coherentes */
+/* Tamaños de fuente */
 body {
   font-size: 20px;
 }

@@ -174,17 +174,17 @@ p, li {
   font-family: 'Orbitron', sans-serif !important;
   font-weight: 800;
   font-size: 150px;              /* tamaño gigante */
-  color: #ff00ff !important;    /* tu fucsia */
+  color: #ff00ff !important;    /* fucsia */
   text-align: center;           /* centrado */
   margin-top: 40px;
   margin-bottom: 50px;
-  letter-spacing: 3px;          /* un toque más futurista */
+  letter-spacing: 3px;          
   text-shadow: 0 0 10px #ff00ff, 
                0 0 20px #ff00ff;
 }
 @media (max-width: 768px) {
   .titulo-grande {
-    font-size: 45px;            /* más chico en celulares */
+    font-size: 45px;           
   }
 }
 </style>
@@ -406,7 +406,7 @@ p, li {
   font-size: 15px !important;
 }
 
-/* Títulos más chicos */
+
 h1 {
   font-size: 28px !important;
 }
@@ -439,7 +439,7 @@ h4, h5, h6 {
   font-size: 16px !important;
 }
 
-/* EL TÍTULO PRINCIPAL — mucho más razonable */
+/* EL TÍTULO PRINCIPAL  */
 .titulo-grande {
   font-size: 70px !important;
   -webkit-text-stroke: 2px #770077 !important;
@@ -461,7 +461,7 @@ h4, h5, h6 {
 }
 
 .integrante {
-  width: 180px !important;   /* antes 220px */
+  width: 180px !important;  
   padding: 15px 10px !important;
 }
 
@@ -476,7 +476,7 @@ h4, h5, h6 {
 </style>
 
 <style>
-/* ESTE elimina cualquier botón flotante del theme */
+/
 a[href*="github.com"][class*="btn"],
 .page-header a.btn,
 header a.btn,
@@ -484,14 +484,14 @@ header a.btn,
   display: none !important;
 }
 
-/* También oculta el contenedor, porque el theme a veces lo wrappea */
+
 .page-header {
   display: none !important;
 }
 </style>
 
 <style>
-/* ELIMINAR completamente el header que mete el theme Hacker */
+
 .site-header {
   display: none !important;
   height: 0 !important;
@@ -499,13 +499,13 @@ header a.btn,
   padding: 0 !important;
 }
 
-/* El main se va para arriba ahora sí */
+
 body, .page-content, .main-content, .container-lg, .container {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
-/* Que el título quede bien arriba sin margen */
+
 .titulo-grande {
   margin-top: 0 !important;
 }
@@ -514,6 +514,6 @@ body, .page-content, .main-content, .container-lg, .container {
 
 <style>
 .titulo-grande {
-  margin-top: -30px !important;  /* probá así; si querés más, -40px */
+  margin-top: -30px !important;  
 }
 </style>
