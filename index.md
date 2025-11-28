@@ -474,3 +474,39 @@ h4, h5, h6 {
   padding: 8px 14px !important;
 }
 </style>
+
+<style>
+/* ESTE elimina cualquier botón flotante del theme */
+a[href*="github.com"][class*="btn"],
+.page-header a.btn,
+header a.btn,
+.btn[href*="github"] {
+  display: none !important;
+}
+
+/* También oculta el contenedor, porque el theme a veces lo wrappea */
+.page-header {
+  display: none !important;
+}
+</style>
+
+<style>
+/* Quitar padding/margen superior que impone el theme */
+body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.main-content,
+.container-lg,
+.container,
+.page-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Título más arriba */
+.titulo-grande {
+  margin-top: 10px !important;
+}
+</style>
