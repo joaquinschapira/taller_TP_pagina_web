@@ -491,40 +491,29 @@ header a.btn,
 </style>
 
 <style>
-/* Quitar cualquier margen/padding global */
-html, body {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* El theme Hacker mete cosas acá: los borramos */
-.site-header,
-.page-header {
+/* ELIMINAR completamente el header que mete el theme Hacker */
+.site-header {
   display: none !important;
+  height: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
-  height: 0 !important;
 }
 
-/* Contenedor principal que envuelve tu Markdown */
-.markdown-body,
-.page-content,
-.main-content,
-.container-lg,
-.container {
+/* El main se va para arriba ahora sí */
+body, .page-content, .main-content, .container-lg, .container {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
-/* Ocultar la línea amarilla */
-hr {
-  display: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Título bien arriba, sin margen extra */
+/* Que el título quede bien arriba sin margen */
 .titulo-grande {
   margin-top: 0 !important;
+}
+</style>
+
+
+<style>
+.titulo-grande {
+  margin-top: -30px !important;  /* probá así; si querés más, -40px */
 }
 </style>
