@@ -397,7 +397,7 @@ Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, M
 
 <style>
 
-/* Tamaño general del texto (mucho más razonable) */
+/* Tamaño general del texto */
 body {
   font-size: 14px !important;
 }
