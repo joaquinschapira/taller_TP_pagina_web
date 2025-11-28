@@ -1,5 +1,29 @@
 
 
+<a href="index.html" class="btn-volver">⟵ Volver</a>
+
+<style>
+.btn-volver {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #ff00ff;
+  color: black !important;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  z-index: 9999;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-volver:hover {
+  background: #ff55ff;
+  transform: scale(1.05);
+}
+</style>
 
 # Cómo se juega
 
