@@ -83,7 +83,7 @@ body {
 </style>
  
 
----
+
 
 
 
@@ -508,5 +508,12 @@ body, .page-content, .main-content, .container-lg, .container {
 /* Que el título quede bien arriba sin margen */
 .titulo-grande {
   margin-top: 0 !important;
+}
+</style>
+
+
+<style>
+.titulo-grande {
+  margin-top: -30px !important;  /* probá así; si querés más, -40px */
 }
 </style>
