@@ -198,22 +198,22 @@ Este juego ha sido desarrollado por los alumnos: Lucas Pagani, Federico Zanor, M
 
   <div class="integrante">
     <div class="integrante-nombre">Lucas Pagani</div>
-    <a class="integrante-github" href="https://github.com/USUARIO1" target="_blank">GitHub</a>
+    <a class="integrante-github" href="https://github.com/lucasPagani2003" target="_blank">GitHub</a>
   </div>
 
   <div class="integrante">
     <div class="integrante-nombre">Federico Zanor</div>
-    <a class="integrante-github" href="https://github.com/USUARIO2" target="_blank">GitHub</a>
+    <a class="integrante-github" href="https://github.com/fedeza01" target="_blank">GitHub</a>
   </div>
 
   <div class="integrante">
     <div class="integrante-nombre">Manuel Pato</div>
-    <a class="integrante-github" href="https://github.com/USUARIO3" target="_blank">GitHub</a>
+    <a class="integrante-github" href="https://github.com/Manupato" target="_blank">GitHub</a>
   </div>
 
   <div class="integrante">
     <div class="integrante-nombre">Joaquin Schapira</div>
-    <a class="integrante-github" href="https://github.com/USUARIO4" target="_blank">GitHub</a>
+    <a class="integrante-github" href="https://github.com/joaquinschapira" target="_blank">GitHub</a>
   </div>
 
 </div>
