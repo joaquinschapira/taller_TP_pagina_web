@@ -491,22 +491,22 @@ header a.btn,
 </style>
 
 <style>
-/* Quitar padding/margen superior que impone el theme */
-body {
+/* ELIMINAR completamente el header que mete el theme Hacker */
+.site-header {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* El main se va para arriba ahora sí */
+body, .page-content, .main-content, .container-lg, .container {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
-.main-content,
-.container-lg,
-.container,
-.page-content {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-/* Título más arriba */
+/* Que el título quede bien arriba sin margen */
 .titulo-grande {
-  margin-top: 10px !important;
+  margin-top: 0 !important;
 }
 </style>
