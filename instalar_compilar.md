@@ -228,3 +228,19 @@ h3 {
   border-radius: 6px;
 }
 </style>
+
+
+<style>
+
+a[href*="github.com"][class*="btn"],
+.page-header a.btn,
+header a.btn,
+.btn[href*="github"] {
+  display: none !important;
+}
+
+
+.page-header {
+  display: none !important;
+}
+</style>
