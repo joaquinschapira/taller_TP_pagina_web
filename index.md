@@ -84,11 +84,6 @@ body {
  
 
 
-
-
-
-
-
 <div class="video-container">
   <video controls width="800">
     <source src="video_juego.mp4" type="video/mp4">
@@ -476,7 +471,7 @@ h4, h5, h6 {
 </style>
 
 <style>
-/
+
 a[href*="github.com"][class*="btn"],
 .page-header a.btn,
 header a.btn,
