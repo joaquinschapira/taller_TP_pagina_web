@@ -86,7 +86,7 @@ body {
 
 <div class="video-container">
   <video controls width="800">
-    <source src="video_juego.mp4" type="video/mp4">
+    <source src="https://github.com/joaquinschapira/taller_TP_pagina_web/releases/download/1.0.0/2025-11-28.00-05-57.2.mp4" type="video/mp4">
     Tu navegador no soporta el video HTML5.
   </video>
 </div>
