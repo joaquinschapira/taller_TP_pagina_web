@@ -55,7 +55,7 @@ Si elegís **Crear Partida**, serás el anfitrión. Podrás:
 - Elegir tu **nombre**.
 - Seleccionar tu **auto**.
 - Elegir uno o más **mapas jugables** creados en el editor.  
-  > *Si aún no creaste mapas, volvé a la sección del **[Editor de Mapas](#editor-de-mapas)**.
+  > *Si aún no creaste mapas, volvé a la sección del Editor de Mapas.
 
 Al confirmar, se abrirá la ventana de **pre-partida/lobby**, donde se generará un **código de 4 dígitos**.  
 Los demás jugadores deberán usar ese código para unirse.
