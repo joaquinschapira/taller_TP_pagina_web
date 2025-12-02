@@ -29,10 +29,10 @@
 
 ## 🕹️ Manual del Juego
 
-Antes de comenzar a jugar, es importante saber que **el juego funciona exclusivamente con mapas creados por el usuario**.  
-Si es tu primera vez, deberás abrir el **editor interactivo** y diseñar tus propios mapas.
-
-Si ya tenés mapas creados o sabés usar el editor, podés saltar a la sección Iniciar el Juego.
+El juego incluye mapas jugables precargados para comenzar a jugar sin configuración
+adicional. Además, el usuario puede diseñar mapas personalizados utilizando el **editor
+interactivo**. Si es su primera vez, se recomienda explorar el editor para crear o modificar
+un mapa a gusto.
 
 ---
 
