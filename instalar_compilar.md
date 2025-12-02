@@ -74,7 +74,7 @@ taller_client localhost 8080
 ---
 
 ## Más información
-Para ver todos los comandos disponibles y detalles completos de compilación/uso, consultá el [manual de usuario](./Manual_de_Usuario.pdf).
+Para ver todos los comandos disponibles y detalles completos de compilación/uso, consultá el manual de usuario.
 
 <style>
 /* Títulos bien fucsia */

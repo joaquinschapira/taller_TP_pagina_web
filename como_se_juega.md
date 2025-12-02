@@ -32,7 +32,7 @@
 Antes de comenzar a jugar, es importante saber que **el juego funciona exclusivamente con mapas creados por el usuario**.  
 Si es tu primera vez, deberás abrir el **editor interactivo** y diseñar tus propios mapas.
 
-Si ya tenés mapas creados o sabés usar el editor, podés saltar a la sección **[Iniciar el Juego](#iniciar-el-juego)**.
+Si ya tenés mapas creados o sabés usar el editor, podés saltar a la sección Iniciar el Juego.
 
 ---
 
