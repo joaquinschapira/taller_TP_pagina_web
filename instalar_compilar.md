@@ -24,60 +24,103 @@
 }
 </style>
 
-# 🔧 Instalación, Compilación y Ejecución
+🔧 Instalación, Compilación y Ejecución
 
-Antes de jugar, es necesario instalar las dependencias y compilar el proyecto.  
-No se necesita conocimiento alguno de C++: todo está automatizado mediante el script `needforspeed2d.sh`.
+Antes de utilizar el juego, es necesario instalar las dependencias y compilar el proyecto.
+Todo el proceso está automatizado mediante el script needforspeed2d.sh.
 
----
+1° Requisitos del Sistema
 
-## 1° Requisitos del Sistema
+Sistema operativo compatible:
 
-- Sistema operativo compatible:
-  - Ubuntu 24.04 (o distribuciones Linux derivadas)
+Ubuntu 24.04 o distribuciones Linux derivadas.
 
----
+2° Clonar el repositorio
 
-## 2° Otorgar permisos de ejecución
+<code class="command">git clone https://github.com/lucasPagani2003/taller-de-programacion-tp-grupal-2025c2-grupo-2.git
 
-<code class="command">chmod +x needforspeed2d.sh</code>
+</code>
 
----
+3° Instalar el proyecto
 
-## 3° Descargar dependencias
+Este paso debe ejecutarse como root, ya que instala binarios y copia assets/config.
 
-Este comando instala todas las librerías necesarias (SDL, Qt, cmake, etc.):
+<code class="command">sudo ./needforspeed2d.sh install</code>
+
+¿Qué hace internamente?
+
+Instala dependencias esenciales
+
+Compila el proyecto
+
+Ejecuta los tests del protocolo
+
+Instala los ejecutables en el sistema:
+
+/usr/bin/taller_client
+
+/usr/bin/taller_server
+
+/usr/bin/taller_editor
+
+Copia recursos del juego a /var/need4speed
+
+Copia configuración a /etc/need4speed
+
+Los mapas jugables se guardan en:
+
+<code class="command">~/.local/share/need4speed/mapas_jugables</code>
+
+Los archivos de configuración permiten ajustar duración de carrera, características de autos, tiempos de pantallas, etc.
+No es necesario modificar nada para jugar.
+
+4° Descargar dependencias (solo desarrolladores)
+
+Solo necesario si agregás nuevas librerías al proyecto.
+
+Instala SDL, Qt, CMake y todas las dependencias:
 
 <code class="command">sudo ./needforspeed2d.sh download</code>
 
----
+5° Compilar manualmente (solo desarrolladores)
 
-## 4° Compilar proyecto
+Compilación normal:
 
-**Compilación normal:**
-<code class="command">./needforspeed2d.sh build</code>
+<code class="command">sudo ./needforspeed2d.sh build</code>
 
-**Compilación limpia:**
-<code class="command">./needforspeed2d.sh build --clean</code>
-<code class="command">./needforspeed2d.sh build --c</code>
+Compilación limpia:
 
----
+<code class="command">sudo ./needforspeed2d.sh build --clean</code>
+<code class="command">sudo ./needforspeed2d.sh build --c</code>
 
-## 5° Ejecutar tests
+6° Ejecutar tests manualmente
 
-<code class="command">./needforspeed2d.sh tests</code>
+Debe ejecutarse desde la raíz del repositorio:
 
----
+<code class="command">sudo ./needforspeed2d.sh tests</code>
 
-## 6° Ejecutar
+7° Ejecutar el proyecto
 
-El proyecto incluye tres ejecutables:
+El sistema incluye tres ejecutables:
 
-- Cliente
-- Servidor
-- Editor de mapas
+Cliente
 
-Todo se ejecuta desde el instalador:
+Servidor
+
+Editor de mapas
+
+Si el proyecto fue instalado (Inciso 3):
+
+Editor:
+<code class="command">taller_editor</code>
+
+Servidor:
+<code class="command">taller_server 8080</code>
+
+Cliente:
+<code class="command">taller_client localhost 8080</code>
+
+Si NO se instaló pero sí se descargaron dependencias y compiló manualmente:
 
 Cliente:
 <code class="command">./needforspeed2d.sh run client</code>
@@ -88,14 +131,13 @@ Servidor:
 Editor:
 <code class="command">./needforspeed2d.sh run editor</code>
 
----
+8° Ejecutar con Valgrind (opcional)
 
-## 7° Ejecutar con Valgrind (opcional)
+Cliente y editor utilizan Valgrind_helpers para supresiones.
+Qt y SDL tienen algunos errores no suprimibles pero no afectan al proyecto.
+El servidor no requiere supresiones.
 
-Importante:
-
-- Cliente y Editor usan Valgrind_helpers para supresiones (ver markdown de ese directorio).
-- Server no usa supresiones.
+Desde la raíz del repositorio:
 
 Cliente:
 <code class="command">./needforspeed2d.sh run client --valgrind</code>
@@ -106,24 +148,174 @@ Servidor:
 Editor:
 <code class="command">./needforspeed2d.sh run editor --valgrind</code>
 
----
+🎮 Manual del Juego
 
-## 8° Configuración del software
+El juego incluye mapas jugables precargados.
+Además, el usuario puede crear mapas personalizados usando el editor interactivo.
 
-El archivo de configuración se encuentra en:
+Si es la primera vez, se recomienda explorar el editor.
 
-<code class="command">etc/need4speed/config.yaml</code>
+🗺️ 1° Editor de Mapas
 
-Permite modificar duración de carrera, características de autos, tiempos de pantallas intermedias y más.  
-No es necesario modificarlo para jugar.
+Para abrir el editor:
 
-Los recursos utilizados (mapas, texturas, sonidos) se encuentran en:
+<code class="command">taller_editor</code>
 
-<code class="command">resources/</code>
+Ciudades disponibles:
 
-Ya vienen listos al compilar.
+San Andreas: avenidas amplias y rectas largas
 
----
+Vice City: calles angostas y trazados cortos
+
+Liberty City: río central, isla y múltiples puentes
+
+1.1 Colocación de elementos
+
+En la barra superior podés colocar:
+
+Salida
+
+Meta
+
+Checkpoints
+
+El cursor indica si la ubicación es válida.
+Los elementos pueden rotarse con R.
+
+Herramientas disponibles:
+
+Borrar
+
+Deshacer (Ctrl + Z)
+
+1.2 Guardado de mapas
+
+Opciones:
+
+Guardar como → crear un nuevo mapa
+
+Abrir mapa jugable → modificar uno existente
+
+Guardar → actualizar el actual
+
+🚀 Iniciar el Juego
+1° Servidor
+
+<code class="command">taller_server 8080</code>
+
+2° Cliente
+
+Cada jugador ejecuta:
+
+<code class="command">taller_client localhost 8080</code>
+
+Se mostrarán las opciones:
+
+Crear partida
+
+Unirse a partida
+
+3° Crear Partida
+
+El anfitrión podrá:
+
+Seleccionar nombre
+
+Elegir auto
+
+Elegir mapas jugables
+
+Se genera un código de 4 dígitos para que otros jugadores se unan.
+
+4° Unirse a Partida
+
+El jugador ingresa:
+
+Nombre
+
+Auto
+
+Código de partida
+
+5° Pre-partida / Lobby
+
+Se mostrarán los jugadores y sus autos.
+La partida empieza cuando todos estén listos.
+
+🎮 Controles del Juego
+Movimiento
+Tecla	Acción
+W	Avanzar
+A	Girar izquierda
+S	Retroceder
+D	Girar derecha
+Misceláneo
+Tecla	Acción
+M	Silenciar sonidos
+N	Subir volumen
+B	Bajarlo
+Cheats
+Tecla	Efecto
+P	Forzar derrota
+O	Forzar victoria
+I	Vida infinita
+U	Modo fantasma
+🏁 Dinámica del Juego
+1. Objetivo
+
+Pasar todos los checkpoints
+
+Cruzar la meta
+
+Evitar pasto/veredas (ralentizan)
+
+2. Sistema de vida
+
+El auto pierde vida al chocar
+
+Si llega a 0:
+
+Se detiene
+
+Explota
+
+Recibe penalización de tiempo
+
+3. Condición de victoria
+
+Gana quien tenga el menor tiempo total al finalizar todos los circuitos.
+
+🛠️ Menú de Mejoras
+
+Entre carreras, los jugadores pueden mejorar su auto.
+Cada mejora agrega una penalización de tiempo, por lo que debe usarse estratégicamente.
+
+📊 Sistema de Ranking
+
+Ejemplo:
+
+Carrera	Jugador A	Jugador B
+1	10s	11s
+2	15s	16s
+3	25s	20s
+
+Resultado final:
+
+Jugador A = 50s
+
+Jugador B = 47s → Ganador
+
+🌐 Página Web
+
+Incluye gameplay y tutoriales:
+
+https://joaquinschapira.github.io/taller_TP_pagina_web/
+
+🎥 Video Ejemplo
+
+Video demostrativo del funcionamiento completo:
+
+https://youtu.be/ID62qAriQmw
 
 <style>
 /* Títulos bien fucsia */
