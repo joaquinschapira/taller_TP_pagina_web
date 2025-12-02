@@ -6,7 +6,7 @@
 <div class="hero-inicio"></div>
 
 <div class="menu-botones">
-  <a class="boton-fucsia" href="como_se_juega.html">¿Cómo se juega?</a>
+  <a class="boton-fucsia" href="como_se_juega.html">¿Cómo crear un mapa?</a>
   <a class="boton-fucsia" href="instalar_compilar.html">¿Cómo instalar, compilar y ejecutar?</a>
   <a class="boton-fucsia" href="iniciar_juego.html">¿Cómo iniciar una partida? </a>
 </div>
