@@ -31,14 +31,14 @@
 
 Primero, se debe crear el servidor al que se conectarán los jugadores:
 
-./needforspeed2d.sh run server
+taller_server 8080
 
 
 ### 🚗 Iniciar un cliente
 
 Cada jugador que quiera jugar debe ejecutar:
 
-./needforspeed2d.sh run client
+taller_client localhost 8080
 
 
 Al hacerlo se abrirá una ventana simple e intuitiva con dos opciones:

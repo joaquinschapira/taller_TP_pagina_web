@@ -40,7 +40,7 @@ Si ya tenés mapas creados o sabés usar el editor, podés saltar a la sección 
 
 Para abrir el editor, ejecutá:
 
-<code class="command">./needforspeed2d.sh run editor</code>
+<code class="command">taller_editor</code>
 
 
 Dentro del editor podrás elegir una de las siguientes **tres ciudades base**:
